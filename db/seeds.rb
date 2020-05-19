@@ -16,3 +16,10 @@ User.create([
   { username: "Tango" , email:"tango@code.com", password_digest: "army1"},
 
   ])
+
+  Expense.create([
+      {name: "Rent", amount: "1500"},
+      {name: "Car Note", amount: "550"},
+      {name: "Cell Phone", amount: "170"},
+      {name: "Groceries", amount: "200"},
+    ])
